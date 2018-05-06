@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>My Restaurant</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/restroStyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+
+				<!-- Logo Image in Header -->
+
+				<div class="navbar-header">
+					<a href="restaurant.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo Image"></div>
+					</a>
+
+					<!-- Brand/company name -->
+
+					<div class="navbar-brand">
+						<a href="restaurant.html"><h1>Manzar Reataurant.</h1></a>
+						<p><img src="restroImage/icons.png" alt="Kosher certification" id="icon">
+							<span>Kosher Certification</span></p>
+						
+					</div>
+
+					<!-- collapsable nav bar -->
+
+					 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav"  aria-expanded="false" >
+					 	<span class="sr-only">Toogle Navigation</span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+  					</button>
+				</div>
+
+				<!-- cllapsable navbar menu -->
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="restaurant.html">
+								<span class="glyphicon glyphicon-star"></span><br class="hidden-xs">Home
+							</a>
+						</li>
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards
+							</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:7060763280">
+								<span>7060763280</span>
+							</a><div>* We Deliver</div>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+		</nav>
+	</header>
+	<!-- Main content/body with jumbotron -->
+				<div id="main-content" class="container">
+					<div class="jumbotron">
+						<img src="restroImage/jumbotron534.jpg" alt="Image of Restaurant" class="img-responsive visible-xs">
+					</div>
+					<div id="home-tiles" class="row">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<a href="single-categories.html"><div id="special-tile"><span>Specials</span></div></a>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<a href="https://goo.gl/maps/iSs8fZ6cvTK2" target="_blank">
+								<div id="map-tile"><span>Map</span>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27821.825669404716!2d79.53598357080581!3d29.348960108995286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a098214690ff0d%3A0x3adc3244429741dc!2sBhimtal%2C+Uttarakhand+263136!5e0!3m2!1sen!2sin!4v1525253792320" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+		<footer class="panel-footer">
+			<div class="container">
+				<div class="row">
+					<section id="hours" class="col-sm-4">
+						<span>Hours</span><br>
+						Sun-Thur : 10:00 - 4:00<br>
+						Fri- 11:15 - 3:00<br>
+						Saturday Closed.
+						<hr class="visible-xs">
+					</section>
+					<section id="address" class="col-sm-4">
+						<span>Address</span><br>
+						Tallital, Road No. 005,<br>
+						Bhimtal
+						<hr class="visible-xs">
+					</section>
+					<section id="testimonials" class="col-sm-4">
+						<p>The best Restaurant ever I have senn.</p>
+						<p>Best food! Great service! Couldn't ask for more!</p>
+					</section>
+				</div>
+				<div class="text-center">&copy; Copyright Manzar Restaurant 2018</div>
+			</div>
+		</footer>
+
+
+
+
+
+	<!--Js content -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
